@@ -1,0 +1,137 @@
+
+/* asayat */
+* {
+    padding: 0;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+::selection {
+    background-color: var(--main-color);
+    color: #fff;
+}
+
+html,
+body {
+    scroll-behavior: smooth;
+}
+
+:root {
+    --main-color: #1E202B;
+    --gap: 30px;
+    --text-color: white;
+    --secondry-color:#009AD8;
+    --second-main-color:#323544;
+}
+.bg-second-main-color{
+    background-color: var(--second-main-color);
+}
+.text-color {
+    color: var(--text-color);
+}
+
+.main-color {
+    color: var(--main-color);
+}
+
+.bg-main-color {
+    background-color: var(--main-color);
+
+}
+header{
+    background-image: url(../images/banner\ \(3\).png);
+    height: 352px;
+}
+.nav-link{
+    color: var(--text-color);
+}
+.navbar-brand{
+    color: var(--text-color);
+}
+.navbar-brand:hover{
+    color: var(--text-color);
+}
+.nav-link:hover{
+    color: #009AD8;
+    border: #009AD8 solid 2px;
+    border-radius: 40%;
+}
+.navbar-nav .nav-link.active {
+    color: #009AD8;
+    border: #009AD8 solid 2px;
+    border-start-end-radius: 40%;
+}
+
+.secondParagraph{
+    font-size: 10px;
+}
+.btn{
+    background:var(--secondry-color);
+}
+.form-control{
+    outline: none;
+    border: none;
+}
+input.form-control::placeholder {
+    color: #6c757d; 
+}
+
+input.form-control:focus {
+    background-color: var(--main-color); 
+    box-shadow: none;
+    color: white;
+
+}
+.divHeader{
+    width: 100%; /* Ensures it spans the full width of the parent */
+ 
+    padding: 5px; /* Add padding if needed */
+}
+.icon-circle {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 18px; /* Icon size */
+    background-color: var(--main-color); /* Circle background color */
+    color: #009AD8;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.icon-circle:hover {
+    background-color:#009AD8 ; /* Hover effect */
+    transform: scale(1.1); /* Slight zoom effect */
+    color: white;
+}
+.icon-circle:hover i{
+
+    color: white;
+}
+
+.icon-circle i {
+    color:#009AD8 ; /* Icon color */
+}
+
+.headerColorForbg-Secondry{
+    background-color: #2D303D;
+}
+
+.headerColorForbg-Main{
+    background-color: #222530;
+}
+/* Prevent button color change on click */
+#search-btn:hover {
+    background-color: var(--secondry-color); /* Prevent background change on click */
+    border: none; /* Optional: Remove any border on click */
+}
+
+/* Optional: You can also style the input placeholder color */
+#location-input::placeholder {
+    color: gray; /* Adjust placeholder color if needed */
+}
+
+.bg-second-card{
+    background-color: #262936;
+}

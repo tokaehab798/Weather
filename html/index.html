@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-main-color p-5 mb-0">
+        <div class="container">
+            <a class="navbar-brand " href="#">
+                <div class="row ">
+                    <div class="col-md-6 ">
+                        <img src="../images/logo (2).png" alt="website logo">
+
+                    </div>
+                    <div class=" col-md-6 ">
+                        <p class="firstParagraph mb-0 fw-bolder">Weather</p>
+                        <p class="secondParagraph opacity-75 ">tagline goes here</p>
+                    </div>
+                </div>
+
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item ">
+                        <a class="nav-link active rounded-pill py-0 me-5" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link rounded-pill py-0 me-5" href="#">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link rounded-pill py-0 me-5" href="#">Live cameras</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  rounded-pill py-0 me-5" href="#">Photos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  rounded-pill py-0 me-5 px-2" href="#">Contact</a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <header class="mt-0">
+
+        <div class="container">
+            <div class="overflow-auto">
+                <div class="position-relative my-5">
+                    <input type="text" class="form-control bg-main-color p-3 rounded-pill pe-5 "
+                        placeholder="Find your location..."  id="location-input">
+                    <button class="btn rounded-pill text-white position-absolute"
+                        style="top: 5px; bottom: 5px; right: 5px;  padding: 10px 20px;"
+                        id="search-btn">
+                        Find
+                    </button>
+                </div>
+            </div>
+            <div class="row text-white rounded overflow-hidden forcastDiv ">
+              
+
+            </div>
+        </div>
+    </header>
+    <div class="bg-main-color" style="height: 300px;"></div>
+    <div class="container-fluid footer bg-second-main-color py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <!-- Subscribe Section -->
+                <div class="col-md-7 mb-4 mb-md-0">
+                    <div class="position-relative">
+                        <input type="text" class="form-control bg-main-color text-white p-3 rounded-pill pe-5" 
+                            placeholder="Enter your email to subscribe..." 
+                            style="outline: none; color: white;">
+                        <button class="btn rounded-pill text-white position-absolute" 
+                            style="top: 5px; bottom: 5px; right: 5px; padding: 10px 20px;">
+                            Subscribe
+                        </button>
+                    </div>
+                </div>
+    
+                <!-- Social Icons Section -->
+                <div class="col-md-5 text-md-end text-center">
+                    <div class="d-flex justify-content-md-end justify-content-center">
+                        <div class="icon-circle bg-main-color text-white me-3">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </div>
+                        <div class="icon-circle bg-main-color text-white me-3">
+                            <i class="fa-brands fa-twitter"></i>
+                        </div>
+                        <div class="icon-circle bg-main-color text-white me-3">
+                            <i class="fa-brands fa-google"></i>
+                        </div>
+                        <div class="icon-circle bg-main-color text-white">
+                            <i class="fa-brands fa-pinterest"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Copyright Section -->
+            <div class="row mt-4">
+                <div class="col-12 ">
+                    <p class="text-white mb-0">Copyright @2014 Company name. Designed by Themezy. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+
+
+
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/main.js"></script>
+</body>
+
+</html>
